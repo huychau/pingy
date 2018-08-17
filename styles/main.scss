@@ -1,5 +1,11 @@
-$heading-color: hotpink;
+// Import some modules
+// ...
 
-h1 {
-  color: $heading-color;
-}
+// Base
+@import "base/all";
+
+// Layout
+@import "layout/all";
+
+// Import some modules
+// ...
