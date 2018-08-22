@@ -8,7 +8,22 @@
 			"path": "node_modules",
 			"action": "exclude",
 			"type": "dir"
-		}
+		},
+    {
+			"path": "views",
+			"action": "exclude",
+			"type": "dir"
+    },
+    {
+      "path": "*.json",
+      "action": "exclude",
+      "type": "file"
+    },
+    {
+      "path": "*.md",
+      "action": "exclude",
+      "type": "file"
+    }
 	],
-	"port": 56884
+	"port": 1234
 }
